@@ -1,0 +1,148 @@
+.key{
+    height: 35px;
+    width: 50px;
+    background-color: black;
+    margin-top: 5px;
+color: white;
+}
+.keyn{
+      height: 35px;
+    width: 50px;
+    background-color: black;
+    margin-top: 5px;
+color: white;  
+}
+#maindiv{
+    width: 600px;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+      background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+#cap{
+   height: 35px;
+    width: 65px;  
+     margin-top: 3px;
+        background-color: black;
+        color: white; 
+}
+#cross{
+    height: 35px;
+    width: 65px;
+    background-color: black; 
+     margin-top: 3px;
+}
+#space{
+    width: 300px;
+     height: 35px;
+     background-color: black; 
+     color: white;
+      margin-top: 3px;
+}
+#symbol{
+        height: 35px;
+    width: 50px;
+    background-color: black;
+         color: white;
+          margin-top: 3px;
+}
+#comma{
+           height: 35px;
+    width: 50px;
+    background-color: black;
+         color: white; 
+          margin-top: 3px;
+}
+#dot{
+        height: 35px;
+    width: 50px;
+    background-color: black;
+         color: white; 
+         margin-top: 3px;
+}
+#additional{
+         height: 35px;
+    width: 50px;
+    background-color: black;
+         color: white; 
+         margin-top: 3px;
+         display: none;
+}
+/*background c st */
+#background{
+    float: right;
+    justify-content: flex-end;
+    border-radius: 90px;
+    background-color: black;
+    color: aliceblue;
+   box-shadow: 3px 3px 8px gray,-3px -3px 8px gray
+}
+/*background c end*/
+/*main back st*/
+#mainb {
+    display: block;              /* make it a block element */
+    margin: 20px auto;           /* auto left/right centers it */
+    border-radius: 20px;
+    background-color:#008080;
+    background-image: url("keyboard.webp");
+      background-position: center;
+    text-align: center;          /* centers text inside */
+    width: fit-content;          /* shrink to content width */
+    padding: 5px; 
+    color: white;
+    max-height: 170px;
+    overflow: auto;
+}
+/*style in scrollbar st*/
+#mainb::-webkit-scrollbar{
+    width: 7px;
+    background: transparent;
+}
+#mainb::-webkit-scrollbar-thumb {
+background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 4px;      /* rounded thumb */
+}
+/* style in scrollbar end*/
+ #mainb ul{
+     list-style-type: none;
+     display: none;
+ }
+ #mainb:hover ul{
+    display: block; 
+ }
+ .keybBtn{
+    border-radius: 30px;
+    height:30px ;
+    width: 100px;
+    background-size: 95% auto;
+    background-position: center;
+ }
+
+ .btn1{background-image: url(BB.webp);}
+ .btn2{background-image:url(WB.webp) ;}
+ .btn3{background-image: url(bflower.webp);}
+  .btn4{background-image: url(pflower.webp);}
+  .btn5{background-image: url(en1.webp);}
+  .btn6{background-image: url(en2.webp);}
+  .btn7{background-image: url(n1.webp);}
+  .btn8{background-image: url(n2.webp);}
+  .btn9{background-image: url(n3.webp);}
+  .btn10{background-image: url(n4.webp);}
+  .btn11{background-image: url(w1.webp);}
+   .btn12{background-image: url(w2.jpg);}
+   .btn13{background-image: url(d1.png);}
+   .btn14{background-image: url(d2.png);}
+/*change color during image set st*/
+#keyC{
+    display: none;
+    border-radius: 10px;
+}
+/*change color during image set st*/
+/*default font btn st*/
+#blank{
+    display: none;    border-radius: 10px;
+}
+/*default font btn st*/
+/* main back end*/
